@@ -1,0 +1,91 @@
+﻿{
+    "accentTwo":  "#0d9488",
+    "stack":  [
+                  "Python",
+                  "RAG Concepts",
+                  "Contract Review",
+                  "LLM Workflow",
+                  "Compliance Triage"
+              ],
+    "docs":  [
+                 {
+                     "label":  "Repository",
+                     "url":  "https://github.com/cloudy-fix/assignment-2-infosys",
+                     "note":  "Source, commits, issues, and project files"
+                 },
+                 {
+                     "label":  "Architecture",
+                     "url":  "https://github.com/cloudy-fix/assignment-2-infosys/blob/main/docs/ARCHITECTURE.md",
+                     "note":  "System design and responsibilities"
+                 },
+                 {
+                     "label":  "Operations",
+                     "url":  "https://github.com/cloudy-fix/assignment-2-infosys/blob/main/docs/OPERATIONS.md",
+                     "note":  "Runbook and deployment notes"
+                 },
+                 {
+                     "label":  "Workflow Diagram",
+                     "url":  "https://github.com/cloudy-fix/assignment-2-infosys/blob/main/docs/diagrams/workflow.mmd",
+                     "note":  "End-to-end process map"
+                 },
+                 {
+                     "label":  "Architecture Diagram",
+                     "url":  "https://github.com/cloudy-fix/assignment-2-infosys/blob/main/docs/diagrams/architecture.mmd",
+                     "note":  "Component-level diagram"
+                 }
+             ],
+    "demoType":  "compliance",
+    "highlights":  [
+                       "Explains an early RAG compliance flow",
+                       "Finds missing contract control areas",
+                       "Frames next production improvements"
+                   ],
+    "title":  "Infosys RAG Compliance Checker V1",
+    "category":  "AI Compliance Prototype",
+    "components":  [
+                       "Document input",
+                       "Retrieval-style context",
+                       "Compliance rules",
+                       "Risk summary",
+                       "Improvement plan"
+                   ],
+    "repo":  "assignment-2-infosys",
+    "runtime":  "GitHub Pages runs the contract review demo. The Python source in the repo represents the RAG-style compliance checker implementation.",
+    "sample":  {
+                   "riskyText":  "This short contract says services will be delivered. It does not define privacy, termination, payment, liability, or jurisdiction.",
+                   "controls":  [
+                                    "Confidentiality",
+                                    "Termination",
+                                    "Liability",
+                                    "Data protection",
+                                    "Governing law",
+                                    "Payment terms"
+                                ],
+                   "text":  "The agreement contains confidentiality, payment terms, termination, governing law, and liability obligations."
+               },
+    "accent":  "#4338ca",
+    "visibility":  "Public",
+    "mission":  "A V1 RAG compliance checker that turns unstructured contract text into reviewable legal and compliance findings.",
+    "metrics":  [
+                    {
+                        "label":  "Version",
+                        "detail":  "Prototype compliance checker",
+                        "value":  "V1"
+                    },
+                    {
+                        "label":  "Review",
+                        "detail":  "Find missing controls",
+                        "value":  "Clause triage"
+                    },
+                    {
+                        "label":  "Output",
+                        "detail":  "Interview-friendly findings",
+                        "value":  "Risk summary"
+                    }
+                ],
+    "links":  {
+                  "pages":  "https://cloudy-fix.github.io/assignment-2-infosys/",
+                  "portfolio":  "https://cloudy-fix.github.io/portfolio/projects.html",
+                  "repo":  "https://github.com/cloudy-fix/assignment-2-infosys"
+              }
+}
