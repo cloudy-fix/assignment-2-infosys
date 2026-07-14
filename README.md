@@ -27,3 +27,12 @@ This repository is useful for discussing how LLM and RAG-style systems can suppo
 - Add sample input/output screenshots.
 - Add environment setup steps when dependencies are finalized.
 - Add tests for document parsing and risk classification behavior.
+
+## Production Documentation
+
+- [Architecture](docs/ARCHITECTURE.md)
+- [Operations Guide](docs/OPERATIONS.md)
+- [Architecture Diagram](docs/diagrams/architecture.mmd)
+- [Workflow Diagram](docs/diagrams/workflow.mmd)
+- [Security Policy](SECURITY.md)
+- [Contributing Guide](CONTRIBUTING.md)

@@ -1,0 +1,6 @@
+﻿flowchart LR
+    User["Commercial contract PDF"] --> App["FastAPI document analysis and regulatory knowledge base"]
+    App --> Data["Regulatory rules, parsed contract text, vector store"]
+    App --> Output["Compliance report and risk observations"]
+    Data --> Output
+
